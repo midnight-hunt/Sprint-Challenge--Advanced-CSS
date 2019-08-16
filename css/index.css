@@ -167,6 +167,19 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header nav a {
+  margin: 2vh 1vw;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
