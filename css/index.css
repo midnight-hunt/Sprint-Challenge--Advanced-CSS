@@ -219,6 +219,16 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  color: #F6F6F6;
+  width: 6vw;
+  padding: 3% 0;
+  border-radius: 6px;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.7rem;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
