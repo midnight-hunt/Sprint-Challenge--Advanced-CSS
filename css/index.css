@@ -184,6 +184,11 @@ p {
 .header nav a {
   margin: 2vh 1vw;
 }
+@media ( max-width: 500px ) {
+  .header nav a {
+    margin: 2vh 2.5vw;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
