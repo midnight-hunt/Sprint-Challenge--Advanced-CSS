@@ -229,6 +229,10 @@ footer {
   font-family: 'Russo One', sans-serif;
   font-size: 1.7rem;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: #F6F6F6;
+  color: #22283A;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
