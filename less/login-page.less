@@ -4,11 +4,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10vh 0 40vh 0;
+    height: 81vh;
 }
 
 h2{
-    margin: 2%;
+    margin-bottom: 45px;
 }
 
 .user{
@@ -25,7 +25,7 @@ h2{
         align-items: center;
         text-align: center;
 
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         line-height: 1.4;
 
         #pass{
@@ -46,12 +46,22 @@ h2{
 
         width: 110px;
         padding: 3% 0;
-        border-radius: 6px;
+        border-radius: 8px;
         text-align: center;
         font-family: 'Russo One', sans-serif;
         font-size: 1.7rem;
         margin: 20px;
-    }
+
+        &:hover {
+            .button-style(@wild-sand, @btn-bg-color);
+        }
+        
+        }
+
+        input[type=password], #username {
+            height: 30px;
+            margin-left: 10px;
+        }
     }
 
     
