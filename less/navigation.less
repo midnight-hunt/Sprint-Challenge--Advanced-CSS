@@ -1,1 +1,26 @@
 // Navigation code here
+
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        padding-top: 2vh;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+
+        a{
+            margin: 2vh 1vw;
+
+            @media @phone{
+                margin: 2vh 2.5vw;
+            }
+        }
+    }
+}
